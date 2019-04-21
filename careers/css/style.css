@@ -1,0 +1,280 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+main
+{
+    padding: 20px 0px;
+}
+
+.section-margin-top
+{margin-top: 40px;}
+
+
+.little-margin-top
+{margin-top: 30px;}
+
+.about-main-header-container
+{
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.about-path{text-align: right;}
+
+
+.about-path > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.about-path > span
+{color: gray;}
+
+.card-box-button
+{
+    padding: 15px 30px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #e4e4e4;
+}
+
+.card-box-description
+{
+ border: 1px solid #656565;
+ padding: 30px;
+}
+
+.card-box-description p 
+{margin-top: 30px;}
+
+.card-box-description i
+{
+    color: #FD602C;
+    padding-right: 30px;
+}
+
+.active-card-box-button
+{
+    background: #FD602C;
+    border: 1px solid #FD602C;
+    color: #fff;
+}
+
+
+.card-box-container
+{display: none;}
+
+
+
+
+.active-card-box-container
+{
+    display: block !important;
+}
+
+.responsive-cover img
+{width: 100%;}
+
+.responsive-content
+{padding: 20px;}
+
+.responsive-content i
+{color: #FD602C;}
+
+.responsive-content p 
+{margin-top: 30px;}
+
+
+.read-more-service
+{
+ padding: 10px 25px;
+ background: transparent;
+ border: 1px solid #e4e4e4;
+ transition: .4s;
+}
+
+.read-more-service:hover
+{
+    background: black;
+    border: 1px solid black;
+    color: #fff;
+}
+/* 
+.purchase-now
+{
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #FD602C;
+    color: #FD602C;
+    transition: .4s;
+} */
+
+
+.purchase-now
+{
+    padding: 10px 30px;
+    background: #FD602C;
+    color: #fff;
+    border: 1px solid #FD602C;
+}
+
+
+.creative-design-card, .creative-design-card-2, .creative-design-card-3
+{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    cursor: pointer;
+    transition: 10s !important;
+    border: 1px solid silver;
+    color: #656565;
+    
+    
+}
+
+.creative-design-card i, .creative-design-card-2 i, .creative-design-card-3 i
+{ 
+  line-height: 50px;
+  padding-left: 10px;
+  font-size: 22px;
+}
+
+
+.creative-desing-card-box, .creative-desing-card-box-2, .creative-desing-card-box-3
+{
+  background: #F6F6F6;
+  overflow: hidden;
+  height: 0;
+  transition: .4s;
+
+}
+
+
+.creative-design-text
+{padding: 10px;}
+
+.active-card-box , .active-card-box-2, .active-card-box-3
+{
+    height: auto;
+}
+
+.active-creative-design ,
+{}
+
+
+.active-creative-design span , .active-creative-design-2 span, .active-creative-design-3 span
+{
+  color: #FD602C;
+}
+
+
+
+/* :right side */
+
+
+.categoties-list-contaoner, .categoties-list-contaoner ul, .get-email, .top-right-gallery-item, .bottom-right-gallery
+{width: 100%;}
+
+.categoties-list-contaoner li
+{
+    width: 100%;
+    margin-top: 23px;
+    color: #656565;
+    transition: .4s;
+    cursor: pointer;
+    border-bottom: 2px solid #eee; 
+}
+
+
+.categoties-list-contaoner li:nth-child(2)
+{color: #FD602C !important;}
+
+.categoties-list-contaoner li:hover
+{color: #FD602C;}
+
+.get-email input, .get-email button
+{
+ padding: 10px 0px;
+ margin: 0;
+}
+
+
+.get-email button
+{margin-left: -5px;
+ width: 20%;
+}
+.get-email input
+{width: 80%;}
+
+
+.top-right-gallery-item
+{
+    display: flex;
+    height: auto;
+   
+}
+
+
+.top-right-gallery-item-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5px;
+    height: 100%;
+    font-size: 1.3vw;
+}
+
+.top-right-gallery-title p 
+{
+  color: #727272;
+  margin-top: -3px;
+}
+
+.top-right-gallery-active-title p 
+{color: #FD602C !important;}
+
+
+.tr-tag button
+{
+    padding: 10px 15px;
+    margin-top: 2px;
+    background: transparent;
+    border: 1px solid #727272;
+    transition: .4s;
+}
+
+.tr-tag button:hover
+{
+    background: #FD602C;
+    border: 1px solid #FD602C;
+    color: #fff;
+
+}
+
+
+.ative-tr-tag
+{
+    background: #FD602C !important;
+    border: 1px solid #FD602C !important;
+    color: #fff;
+}
+
+
+.bottom-right-gallery img 
+{ 
+  display: inline;
+  
+}
+
+@media only screen and (max-width: 991px) 
+{
+  .top-right-gallery-item-text
+  {font-size: 17px !important;}
+}

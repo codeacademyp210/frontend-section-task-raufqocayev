@@ -1,0 +1,149 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+.section-margin-top
+{margin-top: 40px;}
+
+
+.little-margin-top
+{margin-top: 30px;}
+
+.about-main-header-container
+{
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.about-path{text-align: right;}
+
+
+.about-path > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.about-path > span
+{color: gray;}
+
+.team-title-container
+{
+  text-align: center;
+  color: #FD602C;
+
+}
+
+.team-title-container h1
+{font-weight: 100;}
+
+
+.card-box-button
+{
+    padding: 15px 30px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #e4e4e4;
+}
+
+
+.active-card-box-button
+{
+    background: #FD602C;
+    border: 1px solid #FD602C;
+    color: #fff;
+}
+
+
+.card-box-container
+{display: none;}
+
+
+
+
+.active-card-box-container
+{
+    display: block !important;
+}
+
+.responsive-cover img
+{width: 100%;}
+
+.responsive-content
+{padding: 20px;}
+
+.responsive-content i
+{color: #FD602C;}
+
+.responsive-content p 
+{margin-top: 30px;}
+
+
+.read-more-service
+{
+ padding: 10px 25px;
+ background: transparent;
+ border: 1px solid #e4e4e4;
+ transition: .4s;
+}
+
+.read-more-service:hover
+{
+    background: black;
+    border: 1px solid black;
+    color: #fff;
+}
+
+.purchase-now
+{
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #FD602C;
+    color: #FD602C;
+    transition: .4s;
+}
+
+
+.purchase-now:hover
+{
+    background: #FD602C;
+    color: #fff;
+    border: 1px solid #FD602C;
+}
+
+
+.support-card p
+{
+    margin-top: 30px;
+    color: gray;
+}
+
+
+.bottom-icon-container
+{
+    display: flex;
+}
+
+.bottom-icon-text
+{margin-left: 10px;}
+
+.bottom-icon-text h4
+{font-weight: 100}
+
+.bottom-icon i 
+{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #e4e4e4;
+    border-radius: 50%;
+    color: #242424;
+    text-align: center;
+    line-height: 70px;
+
+}

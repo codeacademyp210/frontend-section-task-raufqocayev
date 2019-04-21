@@ -1,0 +1,181 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+main
+{
+    padding: 10px 0px;
+}
+
+.little-top-margin
+{margin-top: 20px;}
+
+.section-margin-top
+{margin-top: 40px;}
+
+#about-paralax
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    z-index: -1;
+    background: url('../img/header-img.jpg');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+#paralax-layer
+{padding: 136px 0px;}
+
+/* paralax end */
+
+
+#main-header
+{
+    margin-top: 150px;
+}
+
+.about-main-header-container
+{
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.about-path{text-align: right;}
+
+
+.about-path > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.about-path > span
+{color: gray;}
+
+.contact-form-wrapper p
+{color: gray;}
+
+
+.input-wrapper
+{position: relative;}
+
+.input-wrapper input
+{
+    width: 100%;
+    padding: 10px 0px;
+    padding-left: 25px;
+}
+
+
+.input-wrapper input:focus
+{
+    outline: 1px solid yellowgreen;
+}
+
+
+
+.input-wrapper input:focus +  i 
+{
+    color: yellowgreen;
+}
+
+.input-wrapper i 
+{
+ position: absolute;
+ top: 12px;
+ left: 10px;
+ color: #656565
+}
+
+
+.input-wrapper textarea
+{width: 100%;
+ height: 150px;
+ padding-left: 30px;
+ padding-top: 11px;
+ transition: .5s;
+}
+
+.input-wrapper textarea:focus
+{
+    outline: 1px solid yellowgreen;
+    height: 170px;
+}
+
+
+.input-wrapper textarea:focus + i
+{color: yellowgreen;}
+
+.text-area-card
+{
+ 
+  width: 100%;
+  height: 30px;
+  border: 1px solid #656565;
+  margin-top: -5px;
+}
+
+
+.text-area-card span
+{
+    color: #656565;
+    padding-left: 5px;
+    line-height: 30px;
+}
+
+
+.contact-submit, .contact-cancel
+{
+    padding: 15px 45px;
+    margin-top: 10px; 
+    border: none;
+    transition: .4s;
+    outline: none;
+
+}
+
+
+.contact-submit
+{
+    background: #fd602c;
+    color: #fff;
+}
+
+.contact-submit:hover
+{background: #000;}
+
+
+.contact-cancel
+{background: silver;}
+
+
+.input-alert-text
+{
+ color: red !important;
+ display: none;
+}
+
+.active-alert
+{display: block !important;}
+
+
+.site-info
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    color: #656565;
+
+}

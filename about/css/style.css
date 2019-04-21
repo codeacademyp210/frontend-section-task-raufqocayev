@@ -1,0 +1,297 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.section-margin-top
+{margin-top: 40px;}
+
+#about-paralax
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    z-index: -1;
+    background: url('../img/header-img.jpg');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+#paralax-layer
+{padding: 136px 0px;}
+
+/* paralax end */
+
+
+#main-header
+{
+    margin-top: 150px;
+}
+
+.about-main-header-container
+{
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.about-path{text-align: right;}
+
+
+.about-path > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.about-path > span
+{color: gray;}
+
+
+.about-us-description
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-description  span
+{color: #FD602C;}
+
+
+.desc-img-cont img
+{width: 100%;}
+
+
+.about-button
+{
+ padding: 10px 20px;
+ border: none;
+ background: #FD602C;
+ color: #fff;
+ outline: none;
+}
+
+/* about description end */
+
+
+#paralax-layer
+{
+    padding-bottom: 130px;
+}
+
+
+.about-us-paralax
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background: url('../img/about-paralax.jpg');
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.about-us-paralax-contain
+{
+   text-align: center;
+    color: #fff;
+    width: 50%;
+
+}
+
+
+#statistics
+{
+    background: #F6F6F6;
+    padding: 150px 0px;
+}
+
+.creative-design-card
+{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    cursor: pointer;
+    transition: 10s !important;
+    
+    
+}
+
+.creative-design-card i 
+{ 
+  line-height: 50px;
+  padding-left: 10px;
+  font-size: 22px;
+}
+
+
+.creative-desing-card-box
+{
+  background: #F6F6F6;
+  overflow: hidden;
+  height: 0;
+  transition: .4s;
+
+}
+
+
+.creative-design-text
+{padding: 10px;}
+
+.active-card-box
+{
+    height: auto;
+}
+
+.active-creative-design
+{}
+
+
+.active-creative-design span
+{
+  color: #FD602C;
+}
+
+/* creative design end */
+
+
+
+.load-bar-container
+{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    
+}
+
+.load-bar
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 40px;
+    color: #F6F6F6;
+    background: #FD602C;
+    font-size: 17px;
+    
+}
+
+.load-bar span
+{
+ margin-left: 10px;
+ text-transform: uppercase;
+}
+
+.javascript-bar
+{width: 80%;}
+
+.photoshop-bar
+{width: 90%;}
+
+.load-design-bar
+{width: 70%;}
+
+.photography-bar
+{width: 75%;}
+
+
+.about-slider-wrapper
+{
+    width: 100%;
+    height: 258px;
+
+}
+
+.about-slider-container
+
+{
+ position: relative;   
+ width: 100%;
+ height: 100%;
+ overflow: hidden;
+}
+
+
+.about-slider-item-header
+{
+    background: #fff;
+    padding: 10px;
+    color: #656565;
+}
+
+.about-slider-item-content
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+.about-content-img img
+{
+    border-radius: 50%;
+    border: 5px solid #FD602C;
+}
+
+
+.about-slider-content-desc
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center !important;
+    width: 100%;
+    height: auto !important;
+}
+
+.about-slider-item
+{
+ position: absolute;
+ top: 0;
+ left: 0;
+ transition: 5s;
+}
+
+.about-slider-content-desc  span
+{color: #FD602C;}
+
+
+.about-indicators-group
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.indicator
+{ 
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: silver;
+    margin-left: 3px;
+}
+
+.active-indicator
+{background: gray !important;}
+
+
